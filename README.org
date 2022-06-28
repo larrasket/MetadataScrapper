@@ -1,0 +1,12 @@
+#+title: MetaDataScrapper
+
+
+* TODOs
+** DONE Fix ~.~ Dependency
+In ~MetaFacebook.PageLikes(string)~, likes are read using a string like: "DESCRIPTION:
+‎مخطوطات عربية على لوحات فنية كلاسيكية‎. 2,312 likes · 420 talking about this. Arts &amp;
+humanities website" from the html source meta tags, currently  it uses '.' to separate each
+portion from the string (name, likes, talking about). This might break if the passed value
+had a '.' in the name.
+*** Resolved
+Resolved using '·' char to detect the end of likes, last '.' to detect end of title.
