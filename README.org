@@ -1,12 +1,28 @@
 #+title: MetaDataScrapper
 
+A .NET class library and WebAPI program to scrap metadata from social media services
+(see [[#services][current implemented services]])
+* Introduction, the problem
+This project was meant to be a side-project for a marketing-oriented project which needed an
+access to social media websites metadata in accurate format, for example, couldn't use the
+given data with the ubiquitously used SI prefix (e.g. 5K for likes count), also the provided
+data from these services metadata (HTML metadata) is not consistent, since it isn't being
+updated instantaneously whenever a real-time update occurs.
 
-* TODOs
-** DONE Fix ~.~ Dependency
-In ~MetaFacebook.PageLikes(string)~, likes are read using a string like: "DESCRIPTION:
-‎مخطوطات عربية على لوحات فنية كلاسيكية‎. 2,312 likes · 420 talking about this. Arts &amp;
-humanities website" from the html source meta tags, currently  it uses '.' to separate each
-portion from the string (name, likes, talking about). This might break if the passed value
-had a '.' in the name.
-*** Resolved
-Resolved using '·' char to detect the end of likes, last '.' to detect end of title.
+There was 2 left options, to use API or scrap data using a data scraper, however, many
+providers block HTML scraping (like Facebook), and even if you could —somehow— workaround
+it, you will face new problems with the inconstant classes naming, which changes frequently.
+Using an API also isn't always an option, platforms like Facebook requires you to have
+permission from each client/object (in this case, page) to get data about it. i.e. you need
+to obtain permission from each page to run the GraphAPI upon it.
+
+However, other platforms are more tolerant with both API permissions & HTML scraping. Thus,
+was purpose to collect a general method package to gather all those information with
+different methods.
+* Documentarian & Usage
+You can find the API documentation [[file:API-Documentation.org][here]] and the library documentation [[file:Documentation.org][here]].
+* Implemented Services
+:PROPERTIES:
+:CUSTOM_ID: services
+:END:
++ Facebook

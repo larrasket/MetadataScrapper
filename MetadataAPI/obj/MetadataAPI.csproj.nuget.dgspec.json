@@ -1,0 +1,135 @@
+{
+  "format": 1,
+  "restore": {
+    "/mnt/disk/me/dummyprogrammingworkspace/MetadataScrapper/MetadataAPI/MetadataAPI.csproj": {}
+  },
+  "projects": {
+    "/mnt/disk/me/dummyprogrammingworkspace/MetadataScrapper/MetadataAPI/MetadataAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/mnt/disk/me/dummyprogrammingworkspace/MetadataScrapper/MetadataAPI/MetadataAPI.csproj",
+        "projectName": "MetadataAPI",
+        "projectPath": "/mnt/disk/me/dummyprogrammingworkspace/MetadataScrapper/MetadataAPI/MetadataAPI.csproj",
+        "packagesPath": "/home/ghd/.nuget/packages/",
+        "outputPath": "/mnt/disk/me/dummyprogrammingworkspace/MetadataScrapper/MetadataAPI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ghd/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/mnt/disk/me/dummyprogrammingworkspace/MetadataScrapper/MetadataScrapper/MetadataScrapper.csproj": {
+                "projectPath": "/mnt/disk/me/dummyprogrammingworkspace/MetadataScrapper/MetadataScrapper/MetadataScrapper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/mnt/disk/me/dummyprogrammingworkspace/MetadataScrapper/MetadataScrapper/MetadataScrapper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/mnt/disk/me/dummyprogrammingworkspace/MetadataScrapper/MetadataScrapper/MetadataScrapper.csproj",
+        "projectName": "MetadataScrapper",
+        "projectPath": "/mnt/disk/me/dummyprogrammingworkspace/MetadataScrapper/MetadataScrapper/MetadataScrapper.csproj",
+        "packagesPath": "/home/ghd/.nuget/packages/",
+        "outputPath": "/mnt/disk/me/dummyprogrammingworkspace/MetadataScrapper/MetadataScrapper/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ghd/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.43, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

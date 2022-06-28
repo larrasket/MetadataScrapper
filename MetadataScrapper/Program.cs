@@ -13,15 +13,6 @@ var pageurl =
 var posturl =
     "https://www.facebook.com/zuck/posts/pfbid02EuNrFgScgg8BzUeGtvFg1RZRGE4i6oskK2TCSkoAzYuJgekE3xs6AKJqtvkGxLn3l";
 
-Console.WriteLine("Page Likes:");
-Console.WriteLine(MetaFacebook.PageLikes(pageurl));
-Console.WriteLine("Post Likes:");
-Console.WriteLine(MetaFacebook.PostLikes(posturl));
-Console.WriteLine("Post Comments:");
-Console.WriteLine(MetaFacebook.PostComments(posturl));
-Console.WriteLine("Post Shares:");
-Console.WriteLine(MetaFacebook.PostShares(posturl));
-MetaFacebook.Close();
 
 // var Driver = new ChromeDriver();
 // HtmlDocument doc = new HtmlDocument();
