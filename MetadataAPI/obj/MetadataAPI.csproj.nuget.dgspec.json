@@ -1,33 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/disk/me/dummyprogrammingworkspace/MetadataScrapper/MetadataAPI/MetadataAPI.csproj": {}
+    "E:\\third year 2nd\\graphics\\MetadataScrapper\\MetadataAPI\\MetadataAPI.csproj": {}
   },
   "projects": {
-    "/mnt/disk/me/dummyprogrammingworkspace/MetadataScrapper/MetadataAPI/MetadataAPI.csproj": {
+    "E:\\third year 2nd\\graphics\\MetadataScrapper\\MetadataAPI\\MetadataAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/disk/me/dummyprogrammingworkspace/MetadataScrapper/MetadataAPI/MetadataAPI.csproj",
+        "projectUniqueName": "E:\\third year 2nd\\graphics\\MetadataScrapper\\MetadataAPI\\MetadataAPI.csproj",
         "projectName": "MetadataAPI",
-        "projectPath": "/mnt/disk/me/dummyprogrammingworkspace/MetadataScrapper/MetadataAPI/MetadataAPI.csproj",
-        "packagesPath": "/home/ghd/.nuget/packages/",
-        "outputPath": "/mnt/disk/me/dummyprogrammingworkspace/MetadataScrapper/MetadataAPI/obj/",
+        "projectPath": "E:\\third year 2nd\\graphics\\MetadataScrapper\\MetadataAPI\\MetadataAPI.csproj",
+        "packagesPath": "C:\\Users\\Delta Store\\.nuget\\packages\\",
+        "outputPath": "E:\\third year 2nd\\graphics\\MetadataScrapper\\MetadataAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/ghd/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Delta Store\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/mnt/disk/me/dummyprogrammingworkspace/MetadataScrapper/MetadataScrapper/MetadataScrapper.csproj": {
-                "projectPath": "/mnt/disk/me/dummyprogrammingworkspace/MetadataScrapper/MetadataScrapper/MetadataScrapper.csproj"
+              "E:\\third year 2nd\\graphics\\MetadataScrapper\\MetadataScrapper\\MetadataScrapper.csproj": {
+                "projectPath": "E:\\third year 2nd\\graphics\\MetadataScrapper\\MetadataScrapper\\MetadataScrapper.csproj"
               }
             }
           }
@@ -65,26 +71,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/mnt/disk/me/dummyprogrammingworkspace/MetadataScrapper/MetadataScrapper/MetadataScrapper.csproj": {
+    "E:\\third year 2nd\\graphics\\MetadataScrapper\\MetadataScrapper\\MetadataScrapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/disk/me/dummyprogrammingworkspace/MetadataScrapper/MetadataScrapper/MetadataScrapper.csproj",
+        "projectUniqueName": "E:\\third year 2nd\\graphics\\MetadataScrapper\\MetadataScrapper\\MetadataScrapper.csproj",
         "projectName": "MetadataScrapper",
-        "projectPath": "/mnt/disk/me/dummyprogrammingworkspace/MetadataScrapper/MetadataScrapper/MetadataScrapper.csproj",
-        "packagesPath": "/home/ghd/.nuget/packages/",
-        "outputPath": "/mnt/disk/me/dummyprogrammingworkspace/MetadataScrapper/MetadataScrapper/obj/",
+        "projectPath": "E:\\third year 2nd\\graphics\\MetadataScrapper\\MetadataScrapper\\MetadataScrapper.csproj",
+        "packagesPath": "C:\\Users\\Delta Store\\.nuget\\packages\\",
+        "outputPath": "E:\\third year 2nd\\graphics\\MetadataScrapper\\MetadataScrapper\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/ghd/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Delta Store\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -127,7 +139,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
