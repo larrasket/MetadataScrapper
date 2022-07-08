@@ -17,3 +17,22 @@
 /mnt/disk/me/dummyprogrammingworkspace/MetadataScrapper/MetadataScrapper/obj/Debug/net6.0/MetadataScrapper.pdb
 /mnt/disk/me/dummyprogrammingworkspace/MetadataScrapper/MetadataScrapper/obj/Debug/net6.0/MetadataScrapper.genruntimeconfig.cache
 /mnt/disk/me/dummyprogrammingworkspace/MetadataScrapper/MetadataScrapper/bin/Debug/net6.0/HtmlAgilityPack.dll
+E:\third year 2nd\graphics\MetadataScrapper\MetadataScrapper\bin\Debug\net6.0\MetadataScrapper.exe
+E:\third year 2nd\graphics\MetadataScrapper\MetadataScrapper\bin\Debug\net6.0\MetadataScrapper.deps.json
+E:\third year 2nd\graphics\MetadataScrapper\MetadataScrapper\bin\Debug\net6.0\MetadataScrapper.runtimeconfig.json
+E:\third year 2nd\graphics\MetadataScrapper\MetadataScrapper\bin\Debug\net6.0\MetadataScrapper.dll
+E:\third year 2nd\graphics\MetadataScrapper\MetadataScrapper\bin\Debug\net6.0\MetadataScrapper.pdb
+E:\third year 2nd\graphics\MetadataScrapper\MetadataScrapper\bin\Debug\net6.0\HtmlAgilityPack.dll
+E:\third year 2nd\graphics\MetadataScrapper\MetadataScrapper\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\third year 2nd\graphics\MetadataScrapper\MetadataScrapper\bin\Debug\net6.0\WebDriver.dll
+E:\third year 2nd\graphics\MetadataScrapper\MetadataScrapper\obj\Debug\net6.0\MetadataScrapper.csproj.AssemblyReference.cache
+E:\third year 2nd\graphics\MetadataScrapper\MetadataScrapper\obj\Debug\net6.0\MetadataScrapper.GeneratedMSBuildEditorConfig.editorconfig
+E:\third year 2nd\graphics\MetadataScrapper\MetadataScrapper\obj\Debug\net6.0\MetadataScrapper.AssemblyInfoInputs.cache
+E:\third year 2nd\graphics\MetadataScrapper\MetadataScrapper\obj\Debug\net6.0\MetadataScrapper.AssemblyInfo.cs
+E:\third year 2nd\graphics\MetadataScrapper\MetadataScrapper\obj\Debug\net6.0\MetadataScrapper.csproj.CoreCompileInputs.cache
+E:\third year 2nd\graphics\MetadataScrapper\MetadataScrapper\obj\Debug\net6.0\MetadataScrapper.csproj.CopyComplete
+E:\third year 2nd\graphics\MetadataScrapper\MetadataScrapper\obj\Debug\net6.0\MetadataScrapper.dll
+E:\third year 2nd\graphics\MetadataScrapper\MetadataScrapper\obj\Debug\net6.0\refint\MetadataScrapper.dll
+E:\third year 2nd\graphics\MetadataScrapper\MetadataScrapper\obj\Debug\net6.0\MetadataScrapper.pdb
+E:\third year 2nd\graphics\MetadataScrapper\MetadataScrapper\obj\Debug\net6.0\MetadataScrapper.genruntimeconfig.cache
+E:\third year 2nd\graphics\MetadataScrapper\MetadataScrapper\obj\Debug\net6.0\ref\MetadataScrapper.dll

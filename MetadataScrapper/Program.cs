@@ -84,11 +84,11 @@ using (var client = new HttpClient())
         var htmlBody = await response.Content.ReadAsStringAsync();
         //Console.WriteLine(htmlBody);
         doc.LoadHtml(htmlBody);
-        var item = driver.FindElement(By.PartialLinkText("edge_followed_by"));
-        Console.WriteLine(item);
+
         var uselessString = "window._sharedData = ";
         var scripts = doc.DocumentNode.SelectNodes("/html/body/script");
-        var scriptInnerText = scripts[0].InnerText.Substring(uselessString.Length).Replace(" ", " ");
+        var scriptInnerText = scripts[0].InnerText.Substring(uselessString.Length).Replace(";", " ");
+        Console.WriteLine(scriptInnerText);
         dynamic jsonStaff = JObject.Parse(scriptInnerText);
         dynamic userProfile = jsonStaff["entry_data"]["ProfilePage"][0]["graphql"]["user"];
         dynamic userLike = jsonStaff["entry_data"]["ProfilePage"]["edge_followed_by"]["count"];
