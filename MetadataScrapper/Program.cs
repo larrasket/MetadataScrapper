@@ -92,6 +92,7 @@ using (var client = new HttpClient())
         dynamic jsonStaff = JObject.Parse(scriptInnerText);
         dynamic userProfile = jsonStaff["entry_data"]["ProfilePage"][0]["graphql"]["user"];
         dynamic userLike = jsonStaff["entry_data"]["ProfilePage"]["edge_followed_by"]["count"];
+        Console.WriteLine(userLike);
         await System.IO.File.WriteAllTextAsync("user.json", JsonConvert.SerializeObject(userProfile), Encoding.UTF8);
         var InstagramUser = new InstagramUser
         {
